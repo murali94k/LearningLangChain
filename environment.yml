@@ -1,0 +1,8 @@
+name: llm
+channels:
+  - conda
+dependencies:
+  - python==3.12.9
+  - pip
+  - pip:
+    - -r requirements.txt
